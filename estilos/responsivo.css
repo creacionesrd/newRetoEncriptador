@@ -1,0 +1,110 @@
+@media screen and (max-width:480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto {
+        top: 6.5rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo_principal {
+        position: absolute;
+        left: 1rem;
+        top: 1.5rem;
+        color: #0A3871;
+        height: 3.5rem;
+    }
+
+    .ingrese_texto {
+        font-size: 2rem;
+        border: none;
+        position: relative;
+        right: 75px;
+    }
+
+    .tabla {
+        width: 18rem;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+        background: #FFFFFF;
+        height: 1rem;
+        position: absolute;
+        left: 2rem;
+        height: 0rem;
+        top: 41rem;
+    }
+
+    .container {
+        position: relative;
+        left: 3rem;
+        bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cuadrado {
+        height: 18rem;
+        width: 30rem;
+    }
+
+    .divMensajes {
+        position: relative;
+        top: 2rem;
+    }
+
+    .botones_div {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 30rem;
+        left: -4em;
+    }
+
+    .encriptar {
+        margin-bottom: 11px;
+        width: 70%;
+    }
+
+    .desencriptar {
+        width: 70%;
+    }
+
+    .muñeco {
+        display: none;
+    }
+
+    .copiar {
+        top: 8rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .muñeco {
+        display: none;
+    }
+
+    .tabla {
+        position: absolute;
+        left: auto;
+        top: 46rem;
+        width: -webkit-fill-available;
+        height: 11rem;
+    }
+
+    .cuadrado {
+        height: 15rem;
+    }
+
+    .divMensajes {
+        top: -7rem;
+    }
+
+    .texto {
+        display: flex;
+        justify-content: center;
+    }
+}
